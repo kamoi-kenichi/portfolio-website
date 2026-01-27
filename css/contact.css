@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+#page-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-color);
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+  z-index: 9999;
+}
+
+#page-transition.fade-out {
+  opacity: 1;
+}
+
+#page-transition.fade-in-complete {
+  opacity: 0;
+}
+
+main::before {
+  content: "";
+  display: block;
+  background: var(--bg_stripe);
+  height: 136px;
+}
+
+#contact .wrapper {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 6rem;
+  font-family: var(--font-cursive);
+  font-weight: 500;
+  margin: 0 auto 32px;
+}
+
+.section-title::after {
+  width: 100%;
+  display: block;
+  content: "";
+  height: 0.5rem;
+  margin: 0 auto;
+  background: var(--main_stripe);
+}
+
+.contact-content {
+  animation: view-slideup 1s ease both;
+}
+
+@keyframes view-slideup {
+  0% {
+    opacity: 0;
+    transform: translate(0, 35px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.contact-text-01 {
+  text-align: left;
+  letter-spacing: 0.08em;
+}
+
+.contact-text-02 {
+  text-align: left;
+  margin-top: 32px;
+  letter-spacing: 0.08em;
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 5rem;
+  }
+  .contact-blank {
+    display: none;
+  }
+  .contact-text-01 {
+    font-size: 1.5rem;
+  }
+  .contact-text-02 {
+    font-size: 1.5rem;
+  }
+}
+
+form {
+  width: 90%;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+dl {
+  width: 600px;
+}
+
+dt {
+  width: 200px;
+  text-align: left;
+  padding-top: 0.5em;
+}
+
+dd {
+  width: calc(100% - 200px);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0.3em;
+  border: 1px solid rgba(58, 58, 58, 0.6);
+  border-radius: 4px;
+  outline: none;
+  box-shadow: none;
+  background: var(--white-color-02);
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.form-submit {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+button.btn-border-shadow {
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: var(--white-color-02);
+  border-radius: 0.5rem;
+  background: var(--orange-color-02);
+  border: none;
+}
+
+.btn-border-shadow {
+  padding: 1.5rem 3rem;
+}
+
+.btn-border-shadow:before {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 100%;
+  height: 100%;
+  content: "";
+  transition: all 0.3s ease;
+  border: 1px solid #b39b7a;
+  border-radius: 0.5rem;
+}
+
+.btn-border-shadow:hover:before {
+  top: 0;
+  left: 0;
+}
+
+.contact-text {
+  margin: 70px 0 0;
+  text-align: left;
+  letter-spacing: 0.08em;
+  color: var(--base-color);
+  line-height: 2;
+  font-size: 100%;
+}
+
+.contact-text a {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.icon-mail {
+  display: block;
+  line-height: 1;
+  font-size: 24px;
+  color: var(--sub-color);
+}
+
+.contact-text a:focus {
+  outline: none;
+}
+.contact-text a:focus-visible {
+  outline: 2px solid rgba(154, 140, 152, 0.6);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 767px) {
+  form {
+    max-width: 500px;
+    margin-top: 32px;
+  }
+  dl {
+    width: 100%;
+  }
+  .form-item {
+    display: block;
+    margin-bottom: 24px;
+  }
+  dt {
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  dd {
+    width: 100%;
+  }
+  .form-submit {
+    margin-top: 40px;
+  }
+  input[type="submit"] {
+    padding: 1em;
+  }
+  button.btn-border-shadow {
+    font-size: 1.4rem;
+    padding: 1.4rem 2.8rem;
+  }
+  .contact-text {
+    font-size: 90%;
+  }
+}
+
+[data-aos="fade-up"] {
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+[data-aos="fade-up"].aos-animate {
+  transform: translateY(0);
+  opacity: 1;
+}
