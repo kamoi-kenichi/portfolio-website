@@ -159,32 +159,33 @@ textarea {
   margin-top: 16px;
 }
 
-a.btn-border-shadow {
+.btn-border-shadow {
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.5;
-  position: relative;
-  display: inline-block;
-  padding: 1rem 4rem;
+
+  padding: 1.5rem 3rem;
   cursor: pointer;
   user-select: none;
   transition: all 0.3s;
+
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
   letter-spacing: 0.1em;
+
   color: var(--white-color-02);
   border-radius: 0.5rem;
   background: var(--orange-color-02);
   border: none;
 }
 
-.btn-border-shadow {
-  padding: 1.5rem 3rem;
-}
-
-a.btn-border-shadow:before {
+.btn-border-shadow::before {
   position: absolute;
   top: -6px;
   left: -6px;
@@ -196,14 +197,19 @@ a.btn-border-shadow:before {
   border-radius: 0.5rem;
 }
 
-a.btn-border-shadow:hover:before {
+.btn-border-shadow:hover::before {
   top: 0;
   left: 0;
 }
 
-a.btn-border-shadow:focus-visible {
+.btn-border-shadow:focus-visible {
   outline: 2px solid rgba(154, 140, 152, 0.6);
   outline-offset: 4px;
+}
+
+button.btn-border-shadow {
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .contact-text {
@@ -239,6 +245,16 @@ a.btn-border-shadow:focus-visible {
   outline: 2px solid rgba(154, 140, 152, 0.6);
   outline-offset: 3px;
   border-radius: 6px;
+}
+
+.thanks-box {
+  max-width: 680px;
+  margin: 48px auto 0;
+  padding: 32px 28px;
+  background: rgba(var(--main-color-rgb), 0.55);
+  border: 1px solid rgba(217, 211, 207, 0.9);
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
 }
 
 @media screen and (max-width: 767px) {
