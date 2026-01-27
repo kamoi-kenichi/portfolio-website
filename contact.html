@@ -96,31 +96,33 @@
           </p>
         </div>
 
-        <form action="#" method="post">
+        <form action="https://formspree.io/f/mpqdoprw" method="POST">
           <dl>
             <div class="form-item">
               <dt><label for="username">お名前</label></dt>
-              <dd><input type="text" name="username" id="username" /></dd>
+              <dd><input type="text" name="name" id="username" required /></dd>
             </div>
+
             <div class="form-item">
               <dt><label for="useremail">メールアドレス</label></dt>
-              <dd><input type="email" name="userEmail" id="useremail" /></dd>
+              <dd><input type="email" name="email" id="useremail" required /></dd>
             </div>
+
             <div class="form-item">
               <dt><label for="usertel">電話番号</label></dt>
-              <dd><input type="tel" name="userTel" id="usertel" /></dd>
+              <dd><input type="tel" name="tel" id="usertel" /></dd>
             </div>
+
             <div class="form-item">
               <dt><label for="content">お問い合わせ内容</label></dt>
-              <dd>
-                <textarea name="message" id="content"></textarea>
-              </dd>
+              <dd><textarea name="message" id="content" required></textarea></dd>
             </div>
           </dl>
+
+          <input type="hidden" name="page" value="contact.html" />
+
           <div class="form-submit">
-            <button type="submit" class="btn btn-border-shadow">
-              送信する
-            </button>
+            <button type="submit" class="btn btn-border-shadow">送信する</button>
           </div>
         </form>
 
