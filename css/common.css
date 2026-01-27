@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+:root {
+  --main-color: #faf8f4;
+  --main-color-rgb: 250, 248, 244;
+  --base-color: #3a3a3a;
+  --base-color-rgb: 58, 58, 58;
+  --sub-color: #9a8c98;
+  --sub-color-rgb: 154, 140, 152;
+
+  --white-color-01: #ffffff;
+  --white-color-02: #fefefe;
+  --gray-color: #484848;
+  --brown-color: #d9d3cf;
+  --blue-color-01: #6f86c1;
+  --blue-color-02: #a8c3c8;
+  --blue-color-03: #7a8db9;
+  --orange-color-01: #f5b57a;
+  --orange-color-02: #eeb786;
+
+  --font-jp: "Noto Sans JP", sans-serif;
+  --font-en: "Roboto", sans-serif;
+  --font-cursive: "Caveat", cursive;
+
+  --bg_stripe: repeating-linear-gradient(
+    20deg,
+    var(--brown-color) 0,
+    var(--brown-color) 1px,
+    transparent 1px,
+    transparent 8px
+  );
+  --main_stripe: repeating-linear-gradient(
+    -45deg,
+    var(--blue-color-03) 0,
+    var(--blue-color-03) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  font-family: var(--font-jp);
+  color: var(--base-color);
+  background-color: var(--main-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
