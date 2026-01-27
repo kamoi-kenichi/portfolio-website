@@ -54,12 +54,6 @@ body {
   font-family: var(--font-jp);
   color: var(--base-color);
   background-color: var(--main-color);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
-main {
-  flex: 1;
-}
 
