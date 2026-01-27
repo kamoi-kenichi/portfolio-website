@@ -69,6 +69,7 @@ main::before {
     opacity: 0;
     transform: translate(0, 35px);
   }
+
   100% {
     opacity: 1;
     transform: translate(0, 0);
@@ -90,12 +91,15 @@ main::before {
   .section-title {
     font-size: 5rem;
   }
+
   .contact-blank {
     display: none;
   }
+
   .contact-text-01 {
     font-size: 1.5rem;
   }
+
   .contact-text-02 {
     font-size: 1.5rem;
   }
@@ -155,7 +159,7 @@ textarea {
   margin-top: 16px;
 }
 
-button.btn-border-shadow {
+a.btn-border-shadow {
   position: relative;
   font-size: 1.6rem;
   font-weight: 600;
@@ -180,7 +184,7 @@ button.btn-border-shadow {
   padding: 1.5rem 3rem;
 }
 
-.btn-border-shadow:before {
+a.btn-border-shadow:before {
   position: absolute;
   top: -6px;
   left: -6px;
@@ -192,9 +196,14 @@ button.btn-border-shadow {
   border-radius: 0.5rem;
 }
 
-.btn-border-shadow:hover:before {
+a.btn-border-shadow:hover:before {
   top: 0;
   left: 0;
+}
+
+a.btn-border-shadow:focus-visible {
+  outline: 2px solid rgba(154, 140, 152, 0.6);
+  outline-offset: 4px;
 }
 
 .contact-text {
@@ -225,6 +234,7 @@ button.btn-border-shadow {
 .contact-text a:focus {
   outline: none;
 }
+
 .contact-text a:focus-visible {
   outline: 2px solid rgba(154, 140, 152, 0.6);
   outline-offset: 3px;
@@ -236,31 +246,39 @@ button.btn-border-shadow {
     max-width: 500px;
     margin-top: 32px;
   }
+
   dl {
     width: 100%;
   }
+
   .form-item {
     display: block;
     margin-bottom: 24px;
   }
+
   dt {
     width: 100%;
     margin-bottom: 5px;
     text-align: left;
   }
+
   dd {
     width: 100%;
   }
+
   .form-submit {
     margin-top: 40px;
   }
+
   input[type="submit"] {
     padding: 1em;
   }
+
   button.btn-border-shadow {
     font-size: 1.4rem;
     padding: 1.4rem 2.8rem;
   }
+
   .contact-text {
     font-size: 90%;
   }
