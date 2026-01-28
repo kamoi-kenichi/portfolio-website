@@ -65,6 +65,7 @@
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
+
   100% {
     transform: translate(-50%, -50%) scale(0.6);
     opacity: 0;
@@ -111,6 +112,7 @@ body.appear .splashbg2 {
   0% {
     transform: scaleY(1);
   }
+
   100% {
     transform: scaleY(0);
   }
@@ -120,6 +122,7 @@ body.appear .splashbg2 {
   0% {
     transform: scaleY(1);
   }
+
   100% {
     transform: scaleY(0);
   }
@@ -141,6 +144,7 @@ body.appear #container {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -234,6 +238,7 @@ header h1 a span {
   header h1 {
     margin-left: 32px;
   }
+
   .global_nav {
     margin-right: 32px;
   }
@@ -243,9 +248,11 @@ header h1 a span {
   header h1 a {
     font-size: 2.8rem;
   }
+
   header h1 a span {
     font-size: 0.8rem;
   }
+
   header h1 {
     margin-left: 24px;
   }
@@ -377,11 +384,13 @@ header h1 a span {
     z-index: -1;
     transition: opacity 0.3s;
   }
+
   .global_nav.panelactive {
     opacity: 1;
     z-index: 999;
     pointer-events: auto;
   }
+
   .global_nav ul {
     display: none;
     position: absolute;
@@ -390,16 +399,20 @@ header h1 a span {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   .global_nav.panelactive ul {
     display: block;
   }
+
   .global_nav li {
     list-style: none;
     text-align: center;
   }
+
   .global_nav ul li {
     margin: 16px 0;
   }
+
   .global_nav ul li a {
     color: var(--base-color);
     font-size: 2.6rem;
@@ -410,6 +423,7 @@ header h1 a span {
     letter-spacing: 0.1em;
     font-weight: bold;
   }
+
   .openbtn {
     display: block;
     position: absolute;
@@ -462,6 +476,7 @@ header h1 a span {
     height: 60vh;
     overflow: hidden;
   }
+
   .slider-item img {
     background-size: cover !important;
     background-position: center center !important;
@@ -541,15 +556,19 @@ header h1 a span {
   0% {
     border-radius: 100% 75% 100% 85% / 100% 100% 100% 85%;
   }
+
   25% {
     border-radius: 100% 100% 100% 85% / 100% 75% 100% 85%;
   }
+
   50% {
     border-radius: 100% 85% 100% 75% / 100% 85% 100% 100%;
   }
+
   75% {
     border-radius: 85% 100% 100% 100% / 100% 85% 100% 75%;
   }
+
   100% {
     border-radius: 100% 75% 100% 85% / 100% 100% 100% 85%;
   }
@@ -561,37 +580,45 @@ header h1 a span {
     padding-right: 24px;
     padding-top: 20px;
   }
+
   #introduction ul {
     flex-direction: column;
     gap: 40px;
     margin: 60px 24px;
   }
+
   #introduction ul li {
     margin: 0 auto;
     width: 200px;
   }
+
   #introduction ul li:nth-child(1) {
     margin-left: 0;
     margin-right: auto;
   }
+
   #introduction ul li:nth-child(1) img {
     width: 60px;
     top: -15px;
     right: 0px;
   }
+
   #introduction ul li:nth-child(2) {
     margin-top: 0;
   }
+
   #introduction ul li:nth-child(2) img {
     width: 120px;
     top: -40px;
     right: -35px;
   }
+
   #introduction ul li:nth-child(3) {
     margin-top: 0;
     margin-left: auto;
     margin-right: 0;
   }
+
   #introduction ul li:nth-child(3) img {
     width: 80px;
     top: -65px;
@@ -708,28 +735,34 @@ a.btn-border-shadow:hover:before {
   #about {
     padding-top: 60px;
   }
+
   .about-heading {
     padding: 25px 40px;
   }
+
   .about-title {
     font-size: 2rem;
   }
+
   .about-title::before {
     width: 6rem;
     height: 6rem;
   }
+
   .about-text {
     width: 80%;
     max-width: 600px;
     margin: 0 auto;
     font-size: 1.4rem;
   }
+
   .about-button a:hover::after {
     width: 100%;
     height: 100%;
     opacity: 1;
     animation: bgappear 0.5s forwards;
   }
+
   .about-button a:hover {
     z-index: 1;
   }
@@ -797,18 +830,22 @@ a.btn-border-shadow:hover:before {
   #works {
     margin-top: 80px;
   }
+
   .works-container {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 24px;
   }
+
   .works-title {
     font-size: 2rem;
   }
+
   .works-title::before {
     width: 6rem;
     height: 6rem;
   }
+
   ul.works-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -823,17 +860,18 @@ a.btn-border-shadow:hover:before {
 }
 
 .works-thumb a img {
-  display: block;           
+  display: block;
   transform: scale(1);
   opacity: 1;
-  transition: transform 1.2s ease, opacity 0.4s ease; 
-  will-change: transform;       
+  transition:
+    transform 1.2s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.4s ease;
+  will-change: transform;
 }
 
 .works-thumb a:hover img {
-  transform: scale(1.05);
-  opacity: 0.5;
-  transition: transform 1.2s ease, opacity 0.4s ease; 
+  transform: scale(1.04);
+  opacity: 0.6;
 }
 
 .modal-open {
@@ -1020,6 +1058,7 @@ a.btn-border-shadow:hover:before {
   opacity: 1;
   animation: bgappear 0.5s forwards;
 }
+
 .works-button a:hover:before {
   z-index: 1;
 }
@@ -1029,60 +1068,77 @@ a.btn-border-shadow:hover:before {
     flex-direction: column;
     margin: 0;
   }
+
   #works article .works-img,
   #works article .text {
     width: 100%;
   }
+
   #works article .works-data {
     margin-top: 40px;
   }
+
   #works article .data-list {
     margin-bottom: 20px;
   }
+
   #works article dl {
     width: 100%;
   }
+
   #works article dl dt {
     width: 24%;
   }
+
   #works article dl dd {
     width: 72%;
   }
+
   .btn-wrapper {
     margin-bottom: 2rem;
   }
+
   .modal-inner article {
     flex-direction: column;
     margin: 0;
   }
+
   .modal-inner article a.btn {
     font-size: 1.3rem;
     padding: 1.1rem 4.1rem;
   }
+
   .modal-inner article .works-img,
   .modal-inner article .text {
     width: 100%;
   }
+
   .modal-inner article .content-title {
     font-size: 1.9rem;
   }
+
   .modal-inner article ul.category li {
     font-size: 1.3rem;
   }
+
   .modal-inner article dl dt {
     width: 40%;
     margin-right: 6px;
     margin-top: 3.8px;
   }
+
   .modal-inner article .works-data {
     margin-top: 40px;
   }
+
   .modal-inner article .data-list {
     margin-bottom: 20px;
   }
+
   .modal-inner article dl {
     width: 100%;
   }
+
   .modal-inner article dl dd {
     font-size: 1.4rem;
     width: 80%;
@@ -1203,12 +1259,10 @@ a.contact-btn-border-shadow:hover:before {
   left: -80%;
   width: 55%;
   height: 100%;
-  background: linear-gradient(
-    120deg,
-    rgba(255, 250, 243, 0) 0%,
-    rgba(255, 250, 243, 0.5) 50%,
-    rgba(255, 250, 243, 0) 100%
-  );
+  background: linear-gradient(120deg,
+      rgba(255, 250, 243, 0) 0%,
+      rgba(255, 250, 243, 0.5) 50%,
+      rgba(255, 250, 243, 0) 100%);
   transform: skewX(-20deg);
   animation: shine 2s ease-out infinite;
   pointer-events: none;
@@ -1220,12 +1274,15 @@ a.contact-btn-border-shadow:hover:before {
     left: -80%;
     opacity: 0;
   }
+
   10% {
     opacity: 1;
   }
+
   50% {
     left: 40%;
   }
+
   100% {
     left: 130%;
     opacity: 0;
@@ -1260,6 +1317,7 @@ a.contact-btn-border-shadow:hover:before {
 .contact-text a:focus {
   outline: none;
 }
+
 .contact-text a:focus-visible {
   outline: 2px solid rgba(154, 140, 152, 0.6);
   outline-offset: 3px;
@@ -1270,23 +1328,29 @@ a.contact-btn-border-shadow:hover:before {
   #contact {
     margin-top: 100px;
   }
+
   .contact-title {
     font-size: 1.9rem;
   }
+
   .contact-title::before {
     width: 6rem;
     height: 6rem;
   }
+
   .contact-detail {
     font-size: 90%;
   }
+
   .contact-btn-area {
     margin-top: 4rem;
   }
+
   .contact-btn {
     font-size: 1.4rem;
     padding: 32px 16px;
   }
+
   .contact-text {
     font-size: 90%;
   }
@@ -1327,9 +1391,11 @@ a.contact-btn-border-shadow:hover:before {
   0% {
     bottom: 20px;
   }
+
   50% {
     bottom: 25px;
   }
+
   100% {
     bottom: 20px;
   }
@@ -1409,18 +1475,23 @@ _:-ms-lang(x),
   .scroll-top a {
     font-size: 1rem;
   }
+
   .js-scroll a::after {
     width: 1px;
   }
+
   .js-scroll a::before {
     width: 1px;
   }
+
   .js-pagetop a::after {
     width: 1px;
   }
+
   .js-pagetop a::before {
     width: 1px;
   }
+
   .js-pagetop a::before {
     width: 1px;
   }

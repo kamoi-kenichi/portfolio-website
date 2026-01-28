@@ -125,13 +125,16 @@ main::before {
     padding-right: 12px;
     padding-top: 24px;
   }
+
   .works-title {
     font-size: 1.9rem;
   }
+
   .works-title::before {
     width: 6rem;
     height: 6rem;
   }
+
   ul.works-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -146,17 +149,18 @@ main::before {
 }
 
 .works-thumb a img {
-  display: block;           
+  display: block;
   transform: scale(1);
   opacity: 1;
-  transition: transform 1.2s ease, opacity 0.4s ease; 
-  will-change: transform;       
+  transition:
+    transform 1.2s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.4s ease;
+  will-change: transform;
 }
 
 .works-thumb a:hover img {
-  transform: scale(1.05);
-  opacity: 0.5;
-  transition: transform 1.2s ease, opacity 0.4s ease; 
+  transform: scale(1.04);
+  opacity: 0.6;
 }
 
 .modal-open {
@@ -177,6 +181,7 @@ main::before {
   .content-title {
     font-size: 1.2rem;
   }
+
   .works-data {
     font-size: 1.1rem;
   }
@@ -352,6 +357,7 @@ main::before {
   opacity: 1;
   animation: bgappear 0.5s forwards;
 }
+
 .works-button a:hover:before {
   z-index: 1;
 }
@@ -361,60 +367,77 @@ main::before {
     flex-direction: column;
     margin: 0;
   }
+
   #works article .works-img,
   #works article .text {
     width: 100%;
   }
+
   #works article .works-data {
     margin-top: 40px;
   }
+
   #works article .data-list {
     margin-bottom: 20px;
   }
+
   #works article dl {
     width: 100%;
   }
+
   #works article dl dt {
     width: 24%;
   }
+
   #works article dl dd {
     width: 72%;
   }
+
   .btn-wrapper {
     margin-bottom: 2rem;
   }
+
   .modal-inner article {
     flex-direction: column;
     margin: 0;
   }
+
   .modal-inner article a.btn {
     font-size: 1.3rem;
     padding: 1.1rem 4.1rem;
   }
+
   .modal-inner article .works-img,
   .modal-inner article .text {
     width: 100%;
   }
+
   .modal-inner article .content-title {
     font-size: 1.9rem;
   }
+
   .modal-inner article ul.category li {
     font-size: 1.3rem;
   }
+
   .modal-inner article dl dt {
     width: 40%;
     margin-right: 6px;
     margin-top: 3.8px;
   }
+
   .modal-inner article .works-data {
     margin-top: 40px;
   }
+
   .modal-inner article .data-list {
     margin-bottom: 20px;
   }
+
   .modal-inner article dl {
     width: 100%;
   }
+
   .modal-inner article dl dd {
     font-size: 1.4rem;
     width: 80%;
