@@ -145,11 +145,18 @@ main::before {
   overflow: hidden;
 }
 
-.works-thumb a img:hover {
+.works-thumb a img {
+  display: block;           
+  transform: scale(1);
+  opacity: 1;
+  transition: transform 1.2s ease, opacity 0.4s ease; 
+  will-change: transform;       
+}
+
+.works-thumb a:hover img {
   transform: scale(1.05);
   opacity: 0.5;
-  text-decoration: none;
-  transition: 0.5s;
+  transition: transform 1.2s ease, opacity 0.4s ease; 
 }
 
 .modal-open {
