@@ -780,6 +780,14 @@ a.btn-border-shadow:hover:before {
   }
 }
 
+.works-lead {
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 0.08em;
+  margin: 80px 0 0;
+  color: var(--base-color);
+}
+
 #works {
   margin: 0 auto;
   margin-top: 160px;
@@ -839,25 +847,24 @@ a.btn-border-shadow:hover:before {
 }
 
 @media screen and (max-width: 767px) {
+  .works-lead {
+  font-size: 90%;
+  }
   #works {
     margin-top: 80px;
   }
-
   .works-container {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 24px;
   }
-
   .works-title {
     font-size: 2rem;
   }
-
   .works-title::before {
     width: 6rem;
     height: 6rem;
   }
-
   ul.works-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
