@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.is-thanks {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.is-thanks main {
+  flex: 1;
+}

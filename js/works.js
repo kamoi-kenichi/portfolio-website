@@ -4,8 +4,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
   setTimeout(() => {
     transition.classList.add("fade-in-complete");
-  }, 10); 
- 
+  }, 10);
+
   links.forEach(link => {
     const href = link.getAttribute("href");
     if (!href || href.startsWith("#") || link.target === "_blank") return;
@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("click", e => {
       e.preventDefault();
 
-      transition.classList.remove("fade-in-complete"); 
+      transition.classList.remove("fade-in-complete");
       transition.classList.add("fade-out");
 
       setTimeout(() => {
@@ -24,27 +24,27 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 $(function () {
-          $('.modal-open').modaal({
-            overlay_close: true, 
-            type: 'inline',      
-            background: '#000', 
-            overlay_opacity: 0.6 ,
-          });
-        });
+  $('.modal-open').modaal({
+    overlay_close: true,
+    type: 'inline',
+    background: '#000',
+    overlay_opacity: 0.6,
+  });
+});
 
 AOS.init({
-    once: true,
-    duration: 800,
-    offset: 120,
-    easing: "ease-in-sine",
-    delay: 100
-  });
+  once: true,
+  duration: 800,
+  offset: 120,
+  easing: "ease-in-sine",
+  delay: 100
+});
 
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 
   const worksLinks = document.querySelectorAll(".modal-open");
 
-  worksLinks.forEach(function(link) {
+  worksLinks.forEach(function (link) {
     link.addEventListener("click", function () {
 
       const workTitle = this.dataset.workTitle;
@@ -59,3 +59,4 @@ AOS.init({
   });
 
 });
+
