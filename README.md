@@ -109,6 +109,16 @@ Tools & Workflow
 
 ---
 
+## 📂 Portfolio (EN)
+
+🌐 Portfolio Website  
+https://intp.site/2905/Portfolio/
+
+This portfolio website showcases my approach to design, structure,
+and implementation, with an emphasis on clarity and intentional decision-making.
+
+---
+
 ## 📘 Learning & Practice
 
 このGitHubでは以下を順次公開予定です。
