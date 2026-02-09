@@ -82,6 +82,23 @@ and long-term maintainability in development.
 
 ---
 
+## 🛠 Skills & Technologies (EN)
+
+Web Development
+- HTML5 / CSS3
+- JavaScript (Vanilla JS, DOM manipulation, interactive UI)
+- Responsive Design / Mobile-First Development
+- UI / UX–focused layout and interaction design
+
+Backend / Learning
+- Java (fundamentals: syntax, class design, collections, exception handling)
+- PHP (fundamentals)
+
+Tools & Workflow
+- Git / GitHub
+
+---
+
 ## 📂 Portfolio
 
 - 🌐 **Portfolio Website**  
