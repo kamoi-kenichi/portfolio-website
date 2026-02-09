@@ -34,6 +34,23 @@ Web / Java を軸に学習中のエンジニアです。
 
 ---
 
+## 📌 Overview (EN)
+
+This portfolio is designed with a clear user flow in mind:  
+**① Understanding the person (About) → ② Evaluating technical skills (Works) → ③ Taking action (Contact).**
+
+From a design perspective, I focus on maintaining a consistent visual concept throughout the site.  
+From an implementation perspective, I handle the entire process end-to-end, including responsive design, animations, modal interactions, and form submission.
+
+Rather than focusing only on visual appearance, this portfolio emphasizes  
+**the ability to explain design and implementation decisions**,  
+as well as **maintainability and readability for real-world operation**.
+
+This portfolio reflects how I think about structure, communication,
+and long-term maintainability in development.
+
+---
+
 ## 🛠 Skills & Technologies
 
 ### Web
