@@ -17,6 +17,22 @@ Web / Java を軸に学習中のエンジニアです。
 
 ---
 
+## 🧭 About Me (EN)
+
+I am an engineer currently learning with a focus on Web and Java development.
+
+I studied Web production at a vocational training school, where I gained hands-on experience in creating projects end-to-end, from design to coding, using HTML, CSS, JavaScript, and PHP.
+
+Building on my frontend experience in structure and visual expression, I am now strengthening my backend fundamentals with a focus on Java.
+In particular, I value code that is easy to read, easy to maintain, and clearly explains **why** each process is necessary.
+
+My learning style emphasizes understanding underlying mechanisms rather than memorization, always considering how code can be improved or extended in the future.
+
+I focus on writing code that is logically structured and easy to modify,
+with an awareness of long-term maintainability and real-world development workflows.
+
+---
+
 ## 📌 Overview
 
 このポートフォリオは、  
