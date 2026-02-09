@@ -122,6 +122,14 @@ Tools & Workflow
 
 ---
 
+## 📘 Learning & Practice (EN)
+
+In this GitHub repository, I gradually publish learning projects such as Java fundamentals exercises, small-scale applications, and sample Web development code.
+Rather than focusing solely on completion, I prioritize clarity,
+maintainability, and the ability to communicate my reasoning through code and documentation.
+
+---
+
 ## 📫 Contact
 
 - GitHub: https://github.com/kamoi-kenichi
