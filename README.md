@@ -86,7 +86,7 @@ and long-term maintainability in development.
 
 ---
 
-## 🛠 Skills & Technologies (EN)
+🛠 Skills & Technologies (EN)
 
 Web Development
 - HTML5 / CSS3
