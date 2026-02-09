@@ -8,8 +8,8 @@ I am an engineer focusing on Web and Java development.
 Leveraging my frontend experience in design and structure,  
 I aim to build backend systems with an emphasis on readability and maintainability.
 
-💡 Value Proposition
-I design and build web applications with a strong emphasis on clarity, maintainability, and explaining *why* each technical decision is made.
+💡 Value Proposition  
+I design and build web applications with a strong emphasis on clarity, maintainability, and explaining why each technical decision is made.
 
 ---
 
@@ -26,11 +26,9 @@ I design and build web applications with a strong emphasis on clarity, maintaina
 
 ## 🧭 About Me (EN)
 
-🧭 About Me (EN)
-
 I am a web developer transitioning into backend engineering, with a current focus on Java and software design fundamentals.
 
-At a vocational training school, I completed hands-on web projects end-to-end—from design to implementation—using HTML, CSS, JavaScript, and PHP. I value readable, maintainable code and focus on understanding *why* each implementation is necessary.
+At a vocational training school, I completed hands-on web projects end-to-end—from design to implementation—using HTML, CSS, JavaScript, and PHP. I value readable, maintainable code and focus on understanding why each implementation is necessary.
 
 ---
 
@@ -84,7 +82,7 @@ and long-term maintainability in development.
 
 ---
 
-🛠 Skills & Technologies (EN)
+## 🛠 Skills & Technologies (EN)
 
 Web Development
 - HTML5 / CSS3
@@ -142,11 +140,7 @@ Current Focus:
 
 Practice & Output:
 - Publishing small Java exercises, sample web projects, and learning documentation
-
-In this GitHub repository, I gradually publish learning projects such as Java fundamentals exercises, small-scale applications, and sample Web development code.
-
-Rather than focusing solely on completion, I prioritize clarity,
-maintainability, and the ability to communicate my reasoning through code and documentation.
+- Emphasizing clarity, maintainability, and communicating reasoning through code and README files
 
 ---
 
