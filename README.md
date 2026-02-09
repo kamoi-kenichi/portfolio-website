@@ -118,13 +118,14 @@ Tools & Workflow
 - 学習過程のアウトプット（README重視）
 
 完成度よりも  
-**「考え方が伝わるコード」**を意識して取り組んでいます。
+「考え方が伝わるコード」を意識して取り組んでいます。
 
 ---
 
 ## 📘 Learning & Practice (EN)
 
 In this GitHub repository, I gradually publish learning projects such as Java fundamentals exercises, small-scale applications, and sample Web development code.
+
 Rather than focusing solely on completion, I prioritize clarity,
 maintainability, and the ability to communicate my reasoning through code and documentation.
 
