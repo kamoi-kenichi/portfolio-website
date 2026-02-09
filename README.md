@@ -1,8 +1,12 @@
-# 👋 Hi, I'm Kenichi Kamoi
-
+## 👋 Hi, I'm Kenichi Kamoi  
 Web / Java を軸に学習中のエンジニアです。  
 フロントエンドで培った設計・表現の経験を活かし、  
 保守性と可読性を意識したバックエンド開発を目指しています。
+
+## 👋 Hi, I'm Kenichi Kamoi (EN)  
+I am an engineer focusing on Web and Java development.  
+Leveraging my frontend experience in design and structure,  
+I aim to build backend systems with an emphasis on readability and maintainability.
 
 ---
 
