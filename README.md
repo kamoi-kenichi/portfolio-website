@@ -8,6 +8,9 @@ I am an engineer focusing on Web and Java development.
 Leveraging my frontend experience in design and structure,  
 I aim to build backend systems with an emphasis on readability and maintainability.
 
+💡 Value Proposition
+I design and build web applications with a strong emphasis on clarity, maintainability, and explaining *why* each technical decision is made.
+
 ---
 
 ## 🧭 About Me
@@ -23,17 +26,11 @@ I aim to build backend systems with an emphasis on readability and maintainabili
 
 ## 🧭 About Me (EN)
 
-I am an engineer currently learning with a focus on Web and Java development.
+🧭 About Me (EN)
 
-I studied Web production at a vocational training school, where I gained hands-on experience in creating projects end-to-end, from design to coding, using HTML, CSS, JavaScript, and PHP.
+I am a web developer transitioning into backend engineering, with a current focus on Java and software design fundamentals.
 
-Building on my frontend experience in structure and visual expression, I am now strengthening my backend fundamentals with a focus on Java.
-In particular, I value code that is easy to read, easy to maintain, and clearly explains **why** each process is necessary.
-
-My learning style emphasizes understanding underlying mechanisms rather than memorization, always considering how code can be improved or extended in the future.
-
-I focus on writing code that is logically structured and easy to modify,
-with an awareness of long-term maintainability and real-world development workflows.
+At a vocational training school, I completed hands-on web projects end-to-end—from design to implementation—using HTML, CSS, JavaScript, and PHP. I value readable, maintainable code and focus on understanding *why* each implementation is necessary.
 
 ---
 
@@ -64,7 +61,7 @@ From an implementation perspective, I handle the entire process end-to-end, incl
 
 Rather than focusing only on visual appearance, this portfolio emphasizes  
 **the ability to explain design and implementation decisions**,  
-as well as **maintainability and readability for real-world operation**.
+as well as **maintainability and readability for real-world projects and maintenance**.
 
 This portfolio reflects how I think about structure, communication,
 and long-term maintainability in development.
@@ -76,6 +73,7 @@ and long-term maintainability in development.
 ### Web
 - HTML5 / CSS3
 - JavaScript（Vanilla JS）
+  - モーダル表示・アニメーション・フォーム送信などを実装
 - Responsive Design / Mobile First
 - UI / UX を意識した画面設計
 
@@ -91,6 +89,7 @@ and long-term maintainability in development.
 Web Development
 - HTML5 / CSS3
 - JavaScript (Vanilla JS, DOM manipulation, interactive UI)
+  - Built interactive portfolio features such as modals, animations, and form handling
 - Responsive Design / Mobile-First Development
 - UI / UX–focused layout and interaction design
 
@@ -137,6 +136,12 @@ and implementation, with an emphasis on clarity and intentional decision-making.
 ---
 
 ## 📘 Learning & Practice (EN)
+
+Current Focus:
+- Strengthening Java fundamentals and backend design skills
+
+Practice & Output:
+- Publishing small Java exercises, sample web projects, and learning documentation
 
 In this GitHub repository, I gradually publish learning projects such as Java fundamentals exercises, small-scale applications, and sample Web development code.
 
