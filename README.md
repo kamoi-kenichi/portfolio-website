@@ -8,9 +8,6 @@ I am an engineer focusing on Web and Java development.
 Leveraging my frontend experience in design and structure,  
 I aim to build backend systems with an emphasis on readability and maintainability.
 
-💡 Value Proposition  
-I design and build web applications with a strong emphasis on clarity, maintainability, and explaining why each technical decision is made.
-
 ---
 
 💡 Value Proposition
@@ -162,9 +159,11 @@ Git / GitHub
 
 ---
 
-📂 Portfolio
+## 📂 Portfolio
+
 🌐 Portfolio Website
 https://intp.site/2905/Portfolio/
+
 ポートフォリオでは、
 デザイン意図・構成・実装内容が伝わることを意識しています。
 
@@ -205,16 +204,19 @@ Practice & Output:
 ---
 
 📘 Learning & Practice
+
 このGitHubでは以下を順次公開予定です。
 
 Java基礎練習・小規模アプリ
 Web制作のサンプルコード
 学習過程のアウトプット（README重視）
+
 完成度よりも「考え方が伝わるコード」を意識して取り組んでいます。
 
 ---
 
 📘 Learning & Practice (EN)
+
 Current Focus:
 Strengthening Java fundamentals and backend design skills
 
@@ -225,5 +227,6 @@ Emphasizing clarity, maintainability, and communicating reasoning through code a
 ---
 
 📫 Contact
+
 GitHub: https://github.com/kamoi-kenichi
 Portfolio: https://intp.site/2905/Portfolio/
