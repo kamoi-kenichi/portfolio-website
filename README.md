@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-👋 Hi, I'm Kenichi Kamoi
-Web / Java を軸に学習中のエンジニアです。
-フロントエンドで培った設計・表現の経験を活かし、
-保守性と可読性を意識したバックエンド開発を目指しています。
-
-👋 Hi, I'm Kenichi Kamoi (EN)
-I am an engineer focusing on Web and Java development.
-Leveraging my frontend experience in design and structure,
-I aim to build backend systems with an emphasis on readability and maintainability.
-=======
 ## 👋 Hi, I'm Kenichi Kamoi  
 Web / Java を軸に学習中のエンジニアです。  
 フロントエンドで培った設計・表現の経験を活かし、  
@@ -23,26 +12,12 @@ I aim to build backend systems with an emphasis on readability and maintainabili
 I design and build web applications with a strong emphasis on clarity, maintainability, and explaining why each technical decision is made.
 
 ---
->>>>>>> 78af9e8a5b82410bfde32cddd63cedb4c5609c0d
 
 💡 Value Proposition
 I design and build web applications with a strong emphasis on clarity, maintainability, and explaining why each technical decision is made.
 
 ---
 
-<<<<<<< HEAD
-🧭 About Me
-職業訓練校にて Web制作（HTML / CSS / JavaScript / PHP）を学習
-デザインからコーディングまで一貫して制作した経験あり
-現在は Java を中心に、設計・基礎力の強化に注力中
-「なぜその処理が必要なのか」「あとから修正しやすいか」を意識しながら、 仕組みを理解することを重視した学習スタイルを大切にしています。
-
----
-
-🧭 About Me (EN)
-I am a web developer transitioning into backend engineering, with a current focus on Java and software design fundamentals.
-At a vocational training school, I completed hands-on web projects end-to-end—from design to implementation—using HTML, CSS, JavaScript, and PHP. I value readable, maintainable code and focus on understanding why each implementation is necessary.
-=======
 ## 🧭 About Me (EN)
 
 I am a web developer transitioning into backend engineering, with a current focus on Java and software design fundamentals.
@@ -120,7 +95,6 @@ Tools & Workflow
 ---
 
 ## 📂 Portfolio
->>>>>>> 78af9e8a5b82410bfde32cddd63cedb4c5609c0d
 
 ---
 
@@ -196,13 +170,6 @@ https://intp.site/2905/Portfolio/
 
 ---
 
-<<<<<<< HEAD
-📂 Portfolio (EN)
-🌐 Portfolio Website
-https://intp.site/2905/Portfolio/
-
-This portfolio website showcases my approach to design, structure, and implementation, with an emphasis on clarity and intentional decision-making.
-=======
 ## 📂 Portfolio (EN)
 
 🌐 Portfolio Website  
@@ -234,7 +201,6 @@ Current Focus:
 Practice & Output:
 - Publishing small Java exercises, sample web projects, and learning documentation
 - Emphasizing clarity, maintainability, and communicating reasoning through code and README files
->>>>>>> 78af9e8a5b82410bfde32cddd63cedb4c5609c0d
 
 ---
 
