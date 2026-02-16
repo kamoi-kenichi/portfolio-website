@@ -93,74 +93,6 @@ Tools & Workflow
 
 ## 📂 Portfolio
 
----
-
-📌 Overview
-このポートフォリオは、
-① 人物理解（About） → ② 制作力確認（Works） → ③ 連絡行動（Contact）
-を最短でつなぐ導線設計を意識して構成しています。
-
-デザイン面では世界観の統一を重視し、
-実装面ではレスポンシブ対応・アニメーション・モーダル表示・フォーム送信までを
-一気通貫で実装しています。
-
-見た目の表現だけでなく、
-「なぜこの構成・実装なのかを説明できること」
-「実運用を想定した保守性・可読性」
-を重視したポートフォリオです。
-
----
-
-📌 Overview (EN)
-This portfolio is designed with a clear user flow in mind:
-① Understanding the person (About) → ② Evaluating technical skills (Works) → ③ Taking action (Contact).
-
-From a design perspective, I focus on maintaining a consistent visual concept throughout the site.
-From an implementation perspective, I handle the entire process end-to-end, including responsive design, animations, modal interactions, and form submission.
-
-Rather than focusing only on visual appearance, this portfolio emphasizes
-the ability to explain design and implementation decisions,
-as well as maintainability and readability for real-world projects and maintenance.
-
-This portfolio reflects how I think about structure, communication, and long-term maintainability in development.
-
----
-
-🛠 Skills & Technologies
-Web
-HTML5 / CSS3
-JavaScript（Vanilla JS）
-モーダル表示・アニメーション・フォーム送信などを実装
-Responsive Design / Mobile First
-UI / UX を意識した画面設計
-Backend / Learning
-
-Java（基礎文法 / クラス設計 / コレクション / 例外処理）
-PHP（基礎）
-
-Git / GitHub
-
----
-
-🛠 Skills & Technologies (EN)
-Web Development
-HTML5 / CSS3
-JavaScript (Vanilla JS, DOM manipulation, interactive UI)
-Built interactive portfolio features such as modals, animations, and form handling
-Responsive Design / Mobile-First Development
-UI / UX–focused layout and interaction design
-Backend / Learning
-
-Java (fundamentals: syntax, class design, collections, exception handling)
-PHP (fundamentals)
-
-Tools & Workflow
-Git / GitHub
-
----
-
-## 📂 Portfolio
-
 🌐 Portfolio Website
 https://intp.site/2905/Portfolio/
 
@@ -229,4 +161,5 @@ Emphasizing clarity, maintainability, and communicating reasoning through code a
 📫 Contact
 
 GitHub: https://github.com/kamoi-kenichi
+
 Portfolio: https://intp.site/2905/Portfolio/
