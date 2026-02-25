@@ -94,7 +94,7 @@ Tools & Workflow
 ## 📂 Portfolio
 
 🌐 Portfolio Website
-https://intp.site/2905/Portfolio/
+https://kenichikamoi.com
 
 ポートフォリオでは、
 デザイン意図・構成・実装内容が伝わることを意識しています。
@@ -104,7 +104,7 @@ https://intp.site/2905/Portfolio/
 ## 📂 Portfolio (EN)
 
 🌐 Portfolio Website  
-https://intp.site/2905/Portfolio/
+https://kenichikamoi.com
 
 This portfolio website showcases my approach to design, structure,
 and implementation, with an emphasis on clarity and intentional decision-making.
@@ -162,4 +162,4 @@ Emphasizing clarity, maintainability, and communicating reasoning through code a
 
 GitHub: https://github.com/kamoi-kenichi
 
-Portfolio: https://intp.site/2905/Portfolio/
+Portfolio: https://kenichikamoi.com
