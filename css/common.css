@@ -10,13 +10,13 @@
     --font-cursive: "Caveat", cursive;
 
     --bg_stripe: repeating-linear-gradient(20deg,
-            var(#d9d3cf) 0,
-            var(#d9d3cf) 1px,
+            #d9d3cf 0,
+            #d9d3cf 1px,
             transparent 1px,
             transparent 8px);
     --main_stripe: repeating-linear-gradient(-45deg,
-            var(#7a8db9) 0,
-            var(#7a8db9) 1px,
+            #7a8db9 0,
+            #7a8db9 1px,
             transparent 1px,
             transparent 3px);
 }
