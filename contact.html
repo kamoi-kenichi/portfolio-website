@@ -5,18 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VYF33NBYYK"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4XF5X4W41"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'G-VYF33NBYYK');
+    gtag('config', 'G-C4XF5X4W41');
   </script>
 
-  <title>お問い合わせ｜Web制作のご相談はこちら｜Kenichi Kamoi</title>
+  <title>お問い合わせ｜制作・デザイン・フロントエンド実装のご相談はこちら｜Kenichi Kamoi</title>
 
-  <meta name="description" content="Webサイト制作やデザインに関するご相談・お問い合わせはこちらから。ポートフォリオをご覧いただいた方からのご連絡をお待ちしております。" />
+  <meta name="description"
+    content="Web制作・デザイン・フロントエンド実装に関するご相談や、採用に関するお問い合わせはこちらから。ポートフォリオをご覧いただいた方からのご連絡をお待ちしております。" />
 
   <meta property="og:title" content="Kenichi Kamoi Portfolio">
   <meta property="og:description" content="北欧ナチュラル × 犬">
@@ -31,6 +32,8 @@
   <meta name="twitter:image" content="https://kenichikamoi.com/img/ogp.jpg">
   <meta name="twitter:site" content="@kamosan12345">
   <meta name="twitter:creator" content="@kamosan12345">
+
+  <link rel="canonical" href="https://kenichikamoi.com/contact.html">
 
   <link rel="icon" href="favicon_v2.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
@@ -90,12 +93,10 @@
         <h2 class="section-title">Contact</h2>
         <div class="contact-content">
           <p class="contact-text-01">
-            ご質問やご依頼などございましたら、
-            <br class="contact-blank" />
-            お気軽にお声がけください。お問合わせお待ちしております。
-          </p>
-          <p class="contact-text-02">
-            以下のフォームに必要事項をご入力いただき、送信ボタンを押してください。
+            デザインから実装まで一貫して対応可能なクリエイティブエンジニアとして、<br class="contact-blank" />
+            Web制作・UI設計・フロントエンド開発のご相談を承っております。<br><br>
+            ポートフォリオをご覧いただいた方からのご連絡も歓迎しております。<br>
+            お気軽にお問い合わせください。
           </p>
         </div>
 
@@ -117,19 +118,35 @@
             </div>
 
             <div class="form-item">
+              <dt><label for="company">会社名（任意）</label></dt>
+              <dd><input type="text" name="company" id="company" /></dd>
+            </div>
+
+            <div class="form-item">
+              <dt><label for="type">お問い合わせ種別</label></dt>
+              <dd>
+                <select name="type" id="type">
+                  <option value="制作相談">制作のご相談</option>
+                  <option value="採用">採用に関するご連絡</option>
+                  <option value="その他">その他</option>
+                </select>
+              </dd>
+            </div>
+
+            <div class="form-item">
               <dt><label for="content">お問い合わせ内容</label></dt>
               <dd><textarea name="message" id="content" required></textarea></dd>
             </div>
           </dl>
 
-          <input type="hidden" name="page" value="contact.html" />
+          <input type="hidden" name="site" value="kenichikamoi.com" />
 
           <div class="form-submit">
             <button type="submit" class="btn-border-shadow">送信する</button>
           </div>
         </form>
 
-        <p class="contact-text" data-aos="fade-up">
+        <p class="contact-text">
           またはメール
           <a href="mailto:kenichi.kamoi.webdesign33@gmail.com?subject=お問い合わせ">
             <span class="material-symbols-outlined icon-mail">mail</span>

@@ -36,7 +36,7 @@ main::before {
   padding-left: 48px;
   padding-right: 48px;
   padding-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 48px;
 }
 
 .section-title {
@@ -77,13 +77,8 @@ main::before {
 }
 
 .contact-text-01 {
+  font-size: 100%;
   text-align: left;
-  letter-spacing: 0.08em;
-}
-
-.contact-text-02 {
-  text-align: left;
-  margin-top: 32px;
   letter-spacing: 0.08em;
 }
 
@@ -97,10 +92,6 @@ main::before {
   }
 
   .contact-text-01 {
-    font-size: 1.5rem;
-  }
-
-  .contact-text-02 {
     font-size: 1.5rem;
   }
 }
@@ -126,7 +117,7 @@ dl {
 dt {
   width: 200px;
   text-align: left;
-  padding-top: 0.5em;
+  padding-top: 0.3em;
 }
 
 dd {
@@ -136,15 +127,24 @@ dd {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+select,
 textarea {
   width: 100%;
   font-size: 1.6rem;
-  padding: 0.3em;
+  padding: 0.3em 0.6em;
   border: 1px solid rgba(58, 58, 58, 0.6);
   border-radius: 4px;
   outline: none;
   box-shadow: none;
-  background: var(--white-color-02);
+  background: #fefefe;
+  color: var(--base-color);
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+select {
+  min-height: 44px;
+  cursor: pointer;
 }
 
 textarea {
@@ -179,9 +179,9 @@ textarea {
   text-decoration: none;
   letter-spacing: 0.1em;
 
-  color: var(--white-color-02);
+  color: #fefefe;
   border-radius: 0.5rem;
-  background: var(--orange-color-02);
+  background: #eeb786;
   border: none;
 }
 
@@ -213,7 +213,7 @@ button.btn-border-shadow {
 }
 
 .contact-text {
-  margin: 70px 0 0;
+  margin: 32px 0 0;
   text-align: left;
   letter-spacing: 0.08em;
   color: var(--base-color);
@@ -251,10 +251,21 @@ button.btn-border-shadow {
   max-width: 680px;
   margin: 48px auto 0;
   padding: 32px 28px;
-  background: rgba(var(--main-color-rgb), 0.55);
+  background: rgba(250, 248, 244, 0.55);
   border: 1px solid rgba(217, 211, 207, 0.9);
   border-radius: 12px;
   backdrop-filter: blur(2px);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #eeb786;
+  box-shadow: 0 0 0 2px rgba(255, 165, 0, 0.2);
+}
+
+.btn-border-shadow:hover {
+  transform: translateY(-2px);
 }
 
 @media screen and (max-width: 767px) {
