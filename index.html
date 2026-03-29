@@ -143,6 +143,9 @@
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./about.html">About</a></li>
                         <li><a href="./works.html">Works</a></li>
+                        <li>
+                            <a href="https://kamoi-kenichi.hatenablog.com/" target="_blank">🐶 Blog</a>
+                        </li>
                         <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
@@ -245,6 +248,61 @@
                 </div>
             </section>
 
+            <section id="blog">
+                <div class="blog-container">
+                    <div class="blog-heading" data-aos="fade">
+                        <h2 class="blog-title">ブログ</h2>
+                        <p class="blog-subtitle">やさしく学ぶ技術ブログ</p>
+                    </div>
+
+                    <ul class="blog-list">
+                        <li data-aos="fade-up">
+                            <a href="https://kamoi-kenichi.hatenablog.com/entry/2026/03/27/225803" target="_blank"
+                                class="blog-card">
+                                <p class="blog-tag">Java / 初心者向け</p>
+
+                                <h3 class="blog-card__title">
+                                    JavaでClassCastExceptionが起きる原因を図解でわかりやすく解説
+                                </h3>
+
+                                <p class="blog-card__text">
+                                    実体の型とキャスト先の型の関係を、犬クラスの例でやさしく整理しました。
+                                </p>
+
+                                <div class="blog-card__meta">
+                                    <span>2026.03.27</span>
+                                    <span class="blog-link-btn">記事を読む →</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-aos="fade-up">
+                            <a href="https://kamoi-kenichi.hatenablog.com/entry/2026/03/28/132042" target="_blank"
+                                class="blog-card">
+                                <p class="blog-tag">Java / 初心者向け</p>
+
+                                <h3 class="blog-card__title">
+                                    Javaのinstanceofとパターンマッチングを図解でわかりやすく解説
+                                </h3>
+
+                                <p class="blog-card__text">
+                                    安全にキャストする方法を、犬クラスの例でやさしく整理しました。
+                                </p>
+
+                                <div class="blog-card__meta">
+                                    <span>2026.03.28</span>
+                                    <span class="blog-link-btn">記事を読む →</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="blog-btn-wrapper">
+                    <a href="https://kamoi-kenichi.hatenablog.com/" target="_blank"
+                        class="btn btn-border-shadow">もっと見る</a>
+                </div>
+            </section>
+
             <section id="introduction">
                 <div class="introduction-container">
                     <ul>
@@ -321,12 +379,12 @@
 
                         <li class="works-card" data-aos="fade-up">
                             <div class="works-card__thumb">
-                                <a href="#design01" class="modal-open" data-work-title="FALQON TOKYO">
-                                    <img src="img/works_image_34.jpg" alt="架空ライブハウスの音楽イベントフライヤー">
+                                <a href="#game02" class="modal-open" data-work-title="Kazuate_Game">
+                                    <img src="img/works_image_42.jpg" alt="Java数当てゲームのアプリ画面">
                                 </a>
                             </div>
-                            <h3 class="works-card__title">音楽イベントフライヤー</h3>
-                            <p class="works-card__meta">Photoshop / キービジュアル</p>
+                            <h3 class="works-card__title">Java数当てゲーム</h3>
+                            <p class="works-card__meta">Java / 数当てゲーム</p>
                         </li>
                     </ul>
                 </div>
@@ -697,7 +755,7 @@
                                         <dt>制作期間</dt>
                                         <dd>約2週間
                                             <br>
-                                            （設計4日間 / デザイン3日間 / 実装1週間）
+                                            （設計4日 / デザイン3日 / 実装1週間）
                                         </dd>
                                     </dl>
                                 </div>
@@ -745,42 +803,43 @@
                     </div>
                 </div>
 
-                <div class="modal" id="design01" aria-hidden="true">
+                <div class="modal" id="game02" aria-hidden="true">
                     <div class="modal-inner">
                         <article class="work-modal">
                             <div class="work-modal__media">
-                                <img src="img/works_image_34.jpg" alt="ネオンとグリッチ表現を用いた音楽イベントのキービジュアル">
+                                <img src="img/works_image_42.jpg" alt="Java数当てゲームのアプリ画面">
                             </div>
 
                             <div class="work-modal__body">
-                                <p class="work-modal__label">Design</p>
-                                <h3 class="work-modal__title">FALQON TOKYO</h3>
+                                <p class="work-modal__label">Game</p>
+                                <h3 class="work-modal__title">Java 数当てゲーム</h3>
                                 <p class="work-modal__lead">
-                                    架空ライブハウス「FALQON TOKYO」で開催される、
-                                    レイヴカルチャーと近未来を融合した音楽イベントのキービジュアルです。
+                                    Javaで制作したコンソール型の数当てゲームです。<br>
+                                    難易度選択やヒント表示に加え、スコアの永続化やプレイ履歴管理など、実際のアプリ開発を意識して設計しました。
                                 </p>
 
                                 <ul class="work-modal__tags">
-                                    <li>Graphic Design</li>
-                                    <li>Visual Design</li>
+                                    <li>Java</li>
+                                    <li>Game Logic</li>
+                                    <li>State Management</li>
+                                    <li>File I/O</li>
                                 </ul>
 
                                 <div class="work-modal__meta">
                                     <dl>
                                         <dt>概要</dt>
-                                        <dd>80〜90年代のレイヴカルチャーと、近未来のテックビジュアルを融合させた音楽イベントのキービジュアル</dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>ターゲット</dt>
-                                        <dd>クラブミュージックファン / 20〜30代 / ナイトイベント参加層</dd>
+                                        <dd>フロント：HTML / CSS / JavaScript<br>
+                                            バック：Java<br>
+                                            開発環境：Visual Studio Code</dd>
                                     </dl>
                                     <dl>
                                         <dt>ツール / 言語</dt>
-                                        <dd>Photoshop / Illustrator</dd>
+                                        <dd>(Front)Visual Studio Code / HTML / CSS / JavaScript (Back)Java</dd>
                                     </dl>
                                     <dl>
                                         <dt>制作期間</dt>
-                                        <dd>約2時間
+                                        <dd>約3日
+                                            （設計1日 / 実装2日）
                                         </dd>
                                     </dl>
                                 </div>
@@ -788,26 +847,30 @@
                                 <div class="work-modal__point">
                                     <h4>工夫ポイント</h4>
                                     <p>
-                                        80〜90年代のレイヴカルチャーをベースに、
-                                        ネオンカラーやグリッチ表現、立体感のあるタイポグラフィを取り入れることで、
-                                        音に身を委ねる高揚感や没入感を視覚的に表現しました。
+                                        難易度選択・入力バリデーション・ヒント表示に加え、ファイルを用いたスコア永続化機能を実装しました。<br>
+                                        難易度ごとにスコアを管理するため、Mapを用いた状態管理を行っています。
                                     </p>
                                 </div>
 
                                 <div class="work-modal__text">
                                     <p>
-                                        クラシカルな彫刻像とヘッドフォンを組み合わせることで、時代を越えて受け継がれるグルーブを象徴的に表現しました。
+                                        データ破損を考慮した例外処理や、プレイ回数・最終プレイ日時の管理など、実際のアプリ開発を意識した設計を行っています。
                                     </p>
 
                                     <p>
-                                        レイヴ黎明期を知る世代から、現代のクラブシーンを楽しむ若年層まで、幅広い世代が同じフロアでサウンドを共有する「過去と未来をつなぐナイトイベント」をコンセプトにしています。
+                                        単なるロジック実装にとどまらず、「状態管理」と「データの安全性」を意識した設計を行いました。
                                     </p>
                                 </div>
 
                                 <div class="work-modal__actions">
-                                    <a class="work-modal__btn" href="https://kenichikamoi.com/img/works_image_34.jpg"
+                                    <a class="work-modal__btn" href="https://kenichikamoi.com/apps/tool/kazuate_game/"
                                         target="_blank">
-                                        画像を見る
+                                        プレイする
+                                    </a>
+
+                                    <a class="work-modal__btn work-modal__btn--ghost"
+                                        href="https://github.com/kamoi-kenichi/Java-Number-Guess-Game" target="_blank">
+                                        GitHubを見る
                                     </a>
 
                                 </div>

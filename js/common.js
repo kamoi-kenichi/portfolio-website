@@ -4,7 +4,7 @@ $(".openbtn").click(function () {
     $(".main-container").toggleClass('mainblur');
 });
 
-$("#g-nav a").click(function () {
+$(".global_nav a").click(function () {
     $(".openbtn").removeClass('active');
     $(".global_nav").removeClass('panelactive');
     $(".main-container").removeClass('mainblur');
