@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   initAOS();
   initWorksTracking();
   initWorksFilter();
+  initAudioTracking();
+  initImageTracking();
+  initSiteTracking();
 });
 
 function initPageTransition() {
@@ -43,7 +46,22 @@ function initPageTransition() {
   });
 }
 
-function initModal() { if (typeof $ === "undefined" || !$.fn.modaal) return; $(".modal-open").modaal({ overlay_close: true, type: "inline", background: "#000", overlay_opacity: 0.6 }); }
+function initModal() {
+  if (typeof $ === "undefined" || !$.fn.modaal) return;
+
+  $(".modal-open").modaal({
+    overlay_close: true,
+    type: "inline",
+    background: "#000",
+    overlay_opacity: 0.6,
+
+    before_close: function () {
+
+      const audios = document.querySelectorAll('audio');
+      audios.forEach(audio => audio.pause());
+    }
+  });
+}
 
 function initAOS() {
   if (typeof AOS === "undefined") return;
@@ -144,6 +162,67 @@ function initWorksFilter() {
           });
         }
       });
+    });
+  });
+}
+
+function initAudioTracking() {
+
+  const audios = document.querySelectorAll('audio');
+
+  audios.forEach(audio => {
+
+    audio.addEventListener('play', function () {
+
+      const workTitle = this.dataset.workTitle;
+
+      if (!workTitle) return;
+
+      if (typeof gtag === "function") {
+        gtag("event", "audio_play", {
+          work_title: workTitle
+        });
+      }
+    });
+  });
+}
+
+function initImageTracking() {
+
+  const imageBtns = document.querySelectorAll('.js-track-image');
+
+  imageBtns.forEach(btn => {
+
+    btn.addEventListener('click', function () {
+
+      const workTitle = this.dataset.workTitle;
+
+      if (!workTitle) return;
+
+      if (typeof gtag === "function") {
+        gtag("event", "image_view_click", {
+          work_title: workTitle
+        });
+      }
+    });
+  });
+}
+
+function initSiteTracking() {
+  const siteBtns = document.querySelectorAll('.js-track-site');
+
+  siteBtns.forEach(btn => {
+    btn.addEventListener('click', function () {
+
+      const workTitle = this.dataset.workTitle;
+
+      if (!workTitle) return;
+
+      if (typeof gtag === "function") {
+        gtag("event", "site_view_click", {
+          work_title: workTitle
+        });
+      }
     });
   });
 }

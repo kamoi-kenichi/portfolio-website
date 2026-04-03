@@ -136,6 +136,18 @@ $(function () {
         type: 'inline',
         background: '#000',
         overlay_opacity: 0.6,
+
+        before_close: function () {
+
+            const audios = document.querySelectorAll('audio');
+            audios.forEach(audio => audio.pause());
+
+            const iframes = document.querySelectorAll('iframe');
+            iframes.forEach(iframe => {
+                const iframeSrc = iframe.src;
+                iframe.src = iframeSrc;
+            });
+        }
     });
 });
 
@@ -187,7 +199,8 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     });
-
+    initAudioTracking();
+    initSiteTracking();
 });
 
 AOS.init({
@@ -197,3 +210,39 @@ AOS.init({
     easing: "ease-in-sine",
     delay: 100
 });
+
+function initAudioTracking() {
+    const audios = document.querySelectorAll('audio');
+
+    audios.forEach(audio => {
+        audio.addEventListener('play', function () {
+            const workTitle = this.dataset.workTitle;
+
+            if (!workTitle) return;
+
+            if (typeof gtag === "function") {
+                gtag("event", "audio_play", {
+                    work_title: workTitle
+                });
+            }
+        });
+    });
+}
+
+function initSiteTracking() {
+    const siteBtns = document.querySelectorAll('.js-track-site');
+
+    siteBtns.forEach(btn => {
+        btn.addEventListener('click', function () {
+            const workTitle = this.dataset.workTitle;
+
+            if (!workTitle) return;
+
+            if (typeof gtag === "function") {
+                gtag("event", "site_view_click", {
+                    work_title: workTitle
+                });
+            }
+        });
+    });
+}
