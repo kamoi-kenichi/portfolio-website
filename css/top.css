@@ -2287,3 +2287,134 @@ _:-ms-lang(x),
     font-size: 1.8rem;
   }
 }
+
+#note {
+  padding: 130px 0 0;
+  background: #f7f5f2;
+}
+
+.note-container {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+.note-heading {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.note-title {
+  font-size: 2.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.note-title::after {
+  display: block;
+  content: "";
+  background: var(--main_stripe);
+  height: 0.5rem;
+  width: 14rem;
+  margin: 5px auto 0;
+}
+
+.note-subtitle {
+  font-size: 100%;
+  opacity: 0.7;
+}
+
+.note-card {
+  border-radius: 20px;
+  padding: 32px;
+  background: #faf9f7;
+  border: 1px solid #e3ded8;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.note-card:hover {
+  transform: translateY(-4px);
+  background: #fbfaf8;
+  border-color: #cbbfb4;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+}
+
+.note-tag {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  color: #6b8e23;
+  margin-bottom: 8px;
+}
+
+.note-card__title {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.note-card__text {
+  font-size: 90%;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.note-card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-link-btn {
+  text-decoration: none;
+  color: #6b8e23;
+  font-weight: bold;
+}
+
+.note-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.note-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+@media (max-width: 767px) {
+  #note {
+    padding: 85px 0 0;
+  }
+
+  .note-title {
+    font-size: 2.4rem;
+  }
+
+  .note-tag {
+    font-size: 1.2rem;
+  }
+
+  .note-card__title {
+    font-size: 1.8rem;
+  }
+
+  .note-card__text {
+    font-size: 85%;
+  }
+
+  .note-list {
+    grid-template-columns: 1fr;
+  }
+
+  .note-btn-wrapper {
+    margin-top: 58px;
+  }
+}
