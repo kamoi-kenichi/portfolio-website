@@ -546,7 +546,7 @@ header h1 a span {
   line-height: 2.2;
   letter-spacing: 0.06em;
   text-align: left;
-  padding-bottom: 48px;
+  padding-bottom: 40px;
   color: #5f5955;
 }
 
@@ -2416,5 +2416,63 @@ _:-ms-lang(x),
 
   .note-btn-wrapper {
     margin-top: 58px;
+  }
+}
+
+.about-sns-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 48px;
+  padding: 0;
+}
+
+.about-sns-list li {
+  list-style: none;
+}
+
+.about-sns-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #faf9f7;
+  border: 1px solid #e3ded8;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.about-sns-list a img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.about-sns-list a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fefefe;
+}
+
+@media (max-width: 767px) {
+  .about-sns-list {
+    margin-bottom: 40px;
+  }
+
+  .about-sns-list a {
+    width: 48px;
+    height: 48px;
+  }
+
+  .about-sns-list a img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .about-text-lead {
+    display: none
   }
 }
