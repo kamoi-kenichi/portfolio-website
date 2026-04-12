@@ -1,133 +1,5 @@
 @charset "UTF-8";
 
-#splash {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-  background: var(--sub-color);
-  text-align: center;
-  color: #fefefe;
-  pointer-events: none;
-}
-
-#splash_logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#splash_logo svg {
-  width: 100vw;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeIn 1.5s ease-out forwards;
-  animation-delay: 0.5s;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  #splash_logo svg {
-    width: 90vw;
-    max-width: none;
-  }
-}
-
-#mask path {
-  fill-opacity: 0;
-  transition: fill-opacity 0.5s;
-  fill: none;
-  stroke: #fefefe;
-}
-
-#mask.done path {
-  fill: #fefefe;
-  fill-opacity: 1;
-  stroke: none;
-}
-
-.logo-shrink {
-  animation-name: LogoShrink;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes LogoShrink {
-  0% {
-    transform: translate(-50%, -50%) scale(1);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translate(-50%, -50%) scale(0.6);
-    opacity: 0;
-  }
-}
-
-.splashbg1,
-.splashbg2 {
-  content: "";
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  height: 100vh;
-  left: 0;
-  background-color: var(--sub-color);
-  transform: scaleY(1);
-}
-
-.splashbg1 {
-  bottom: 50%;
-  transform-origin: top;
-}
-
-.splashbg2 {
-  top: 50%;
-  transform-origin: bottom;
-}
-
-body.appear .splashbg1 {
-  animation-name: PageAnime;
-  animation-duration: 1.4s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
-
-body.appear .splashbg2 {
-  animation-name: PageAnime2;
-  animation-duration: 1.4s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes PageAnime {
-  0% {
-    transform: scaleY(1);
-  }
-
-  100% {
-    transform: scaleY(0);
-  }
-}
-
-@keyframes PageAnime2 {
-  0% {
-    transform: scaleY(1);
-  }
-
-  100% {
-    transform: scaleY(0);
-  }
-}
-
 #container {
   opacity: 0;
 }
@@ -1557,6 +1429,12 @@ _:-ms-lang(x),
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-copy {
+    top: calc(50% + 68px);
   }
 }
 

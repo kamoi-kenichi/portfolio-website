@@ -1,38 +1,5 @@
 $(function () {
-    const isVisited = sessionStorage.getItem('visited_top');
-
-    if (isVisited) {
-        $('#splash').hide();
-        $('body').addClass('appear');
-        return;
-    }
-
-    sessionStorage.setItem('visited_top', 'true');
-
-    var stroke = new Vivus('mask', {
-        start: 'manual',
-        type: 'scenario-sync',
-        duration: 10,
-        forceRender: false,
-        animTimingFunction: Vivus.EASE
-    }, function () {
-        $('#mask').addClass('done');
-
-        setTimeout(function () {
-            $('#splash_logo')
-                .addClass('logo-shrink')
-                .one('animationend', function (e) {
-                    if (e.originalEvent.animationName !== 'LogoShrink') return;
-
-                    $('body').addClass('appear');
-                    $('#splash').fadeOut('slow');
-                });
-        }, 700);
-    });
-
-    $(window).on('load', function () {
-        stroke.play();
-    });
+    $('body').addClass('appear');
 });
 
 var slidesPc = [

@@ -82,13 +82,17 @@ main::before {
   letter-spacing: 0.08em;
 }
 
+  .contact-blank {
+    display: none;
+  }
+
 @media screen and (max-width: 767px) {
   .section-title {
     font-size: 5rem;
   }
 
   .contact-blank {
-    display: none;
+    display: block;
   }
 
   .contact-text-01 {
@@ -320,3 +324,4 @@ textarea:focus {
   transform: translateY(0);
   opacity: 1;
 }
+
