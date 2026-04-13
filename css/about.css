@@ -178,9 +178,9 @@ main::before {
   }
 
   .content-title {
-    font-size: 1.9rem;
-    writing-mode: vertical-rl;
-    margin: 0 216px 48px 120px;
+    font-size: 2.2rem;
+    writing-mode: horizontal-tb;
+    margin: 0 auto 32px;
     text-align: center;
   }
 
@@ -192,20 +192,24 @@ main::before {
   .about-text {
     text-align: center;
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-text img {
-    position: absolute;
-    right: 32px;
-    bottom: 300px;
+    position: static;
     width: 150px;
-    z-index: 1;
+    margin: 0 auto 32px;
     display: block;
     height: auto;
+    z-index: 1;
   }
 
   .about-text p {
-    margin-left: 16px;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
   }
 }
 
@@ -346,8 +350,8 @@ main::before {
 @media screen and (max-width: 767px) {
   .content-title-ability {
     font-size: 1.9rem;
-    writing-mode: vertical-rl;
-    margin: 0 auto 48px;
+    writing-mode: horizontal-tb;
+    margin: 60px auto 48px;
     text-align: center;
   }
 
@@ -464,7 +468,7 @@ main::before {
 @media screen and (max-width: 767px) {
   .content-title-philosophy {
     font-size: 1.9rem;
-    writing-mode: vertical-rl;
+    writing-mode: horizontal-tb;
     margin: 48px auto 36px;
     text-align: center;
   }
@@ -603,8 +607,8 @@ main::before {
 
   .content-title-career {
     font-size: 1.9rem;
-    writing-mode: vertical-rl;
-    margin: 60px auto 24px;
+    writing-mode: horizontal-tb;
+    margin: 60px auto 36px;
     text-align: center;
   }
 
@@ -725,7 +729,7 @@ main::before {
 
   .content-title-dog {
     font-size: 1.9rem;
-    writing-mode: vertical-rl;
+    writing-mode: horizontal-tb;
     margin: 0 auto 16px;
     text-align: center;
   }
