@@ -1,25 +1,28 @@
 ## 👋 Hi, I'm Kenichi Kamoi  
-Web / Java を軸に学習中のエンジニアです。  
-フロントエンドで培った設計・表現の経験を活かし、  
-保守性と可読性を意識したバックエンド開発を目指しています。
+Webフロントエンドの知見を活かしながら、現在はJavaを用いたバックエンド開発へと領域を広げています。  
+デザインやUI構築で培った「ユーザー体験」の視点を活かし、  
+裏側のロジックにおいても保守性と可読性を意識したシステム設計を目指しています。
 
 ## 👋 Hi, I'm Kenichi Kamoi (EN)  
-I am an engineer focusing on Web and Java development.  
-Leveraging my frontend experience in design and structure,  
-I aim to build backend systems with an emphasis on readability and maintainability.
+I am an engineer transitioning from frontend web development to Java backend engineering.  
+Leveraging my experience in UI design and frontend structure,  
+I aim to build robust backend systems with a strong emphasis on readability and maintainability.
 
 ---
 
-💡 Value Proposition
-I design and build web applications with a strong emphasis on clarity, maintainability, and explaining why each technical decision is made.
+## 🧭 About Me
+
+直感的なUI/UXデザインと、Javaを用いたバックエンドの架け橋となり、シームレスなユーザー体験を生み出すことを目指しています。   
+ポートフォリオ制作を通して、Webサイトをゼロから開発する過程で、実践的な経験を積んできました。
+保守性の高いコードを書くよう努め、自分が構築するシステムの根本的な仕組みを深く理解することを探求しています。
 
 ---
 
 ## 🧭 About Me (EN)
 
-I am a web developer transitioning into backend engineering, with a current focus on Java and software design fundamentals.
-
-At a vocational training school, I completed hands-on web projects end-to-end—from design to implementation—using HTML, CSS, JavaScript, and PHP. I value readable, maintainable code and focus on understanding why each implementation is necessary.
+I aim to bridge the gap between intuitive UI/UX design and Java-based backend development to create a seamless user experience.   
+Through portfolio projects, I have gained practical experience in developing websites from scratch.  
+I strive to write maintainable code and seek to deeply understand the fundamental mechanisms of the systems I build.  
 
 ---
 
@@ -27,11 +30,10 @@ At a vocational training school, I completed hands-on web projects end-to-end—
 
 このポートフォリオは、  
 **① 人物理解（About） → ② 制作力確認（Works） → ③ 連絡行動（Contact）**  
-を最短でつなぐ導線設計を意識して構成しています。
+をつなぐ導線設計を意識して設計しています。
 
 デザイン面では世界観の統一を重視し、  
-実装面ではレスポンシブ対応・アニメーション・モーダル表示・フォーム送信までを  
-一気通貫で実装しています。
+実装面ではレスポンシブ対応・アニメーション・モーダル表示・フォーム送信まで実装しています。
 
 見た目の表現だけでなく、  
 **「なぜこの構成・実装なのかを説明できること」**  
@@ -67,9 +69,12 @@ and long-term maintainability in development.
 - UI / UX を意識した画面設計
 
 ### Backend / Learning
-- Java（基礎文法 / クラス設計 / コレクション / 例外処理）
-- PHP（基礎）
-- Git / GitHub
+- **Java**
+  - 基礎文法 / オブジェクト指向設計 / コレクション / 例外処理
+  - `sealed` クラスなどのモダンな仕様の学習
+  - ※現在、Java Silver資格取得に向けて学習中
+- **PHP**（基礎的なフォーム処理・ルーティング）
+- **Git / GitHub**（バージョン管理・Pagesでの公開設定）
 
 ---
 
@@ -96,8 +101,7 @@ Tools & Workflow
 🌐 Portfolio Website  
 https://kenichikamoi.com
 
-ポートフォリオでは、
-デザイン意図・構成・実装内容が伝わることを意識しています。
+デザイン意図・構成・実装内容が伝わることを意識して設計しています。
 
 ---
 
@@ -115,9 +119,10 @@ and implementation, with an emphasis on clarity and intentional decision-making.
 
 このGitHubでは以下を順次公開予定です。
 
-- Java基礎練習・小規模アプリ
-- Web制作のサンプルコード
-- 学習過程のアウトプット（README重視）
+- **Java 小規模アプリ開発**（コンソール型数当てゲームの実装と状態管理など）
+- **言語仕様の比較**（Javaで作ったゲームのJavaScriptへの移植による挙動の違いの検証）
+- **Web制作のサンプルコード**
+- **学習過程のアウトプット**（README重視）
 
 完成度よりも  
 「考え方が伝わるコード」を意識して取り組んでいます。
@@ -127,34 +132,13 @@ and implementation, with an emphasis on clarity and intentional decision-making.
 ## 📘 Learning & Practice (EN)
 
 Current Focus:
-- Strengthening Java fundamentals and backend design skills
+- Strengthening Java fundamentals, object-oriented programming, and backend design skills.
 
 Practice & Output:
-- Publishing small Java exercises, sample web projects, and learning documentation
-- Emphasizing clarity, maintainability, and communicating reasoning through code and README files
-
----
-
-📘 Learning & Practice
-
-このGitHubでは以下を順次公開予定です。
-
-Java基礎練習・小規模アプリ
-Web制作のサンプルコード
-学習過程のアウトプット（README重視）
-
-完成度よりも「考え方が伝わるコード」を意識して取り組んでいます。
-
----
-
-📘 Learning & Practice (EN)
-
-Current Focus:
-Strengthening Java fundamentals and backend design skills
-
-Practice & Output:
-Publishing small Java exercises, sample web projects, and learning documentation
-Emphasizing clarity, maintainability, and communicating reasoning through code and README files
+- Developing small Java applications (e.g., a console-based number-guessing game focusing on state management).
+- Language comparison studies (e.g., porting a Java game to JavaScript to analyze behavioral differences).
+- Publishing sample web projects and learning documentation.
+- Emphasizing clarity, maintainability, and communicating reasoning through code and README files.
 
 ---
 
