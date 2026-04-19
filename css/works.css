@@ -309,6 +309,12 @@ main::before {
   border-radius: 16px;
 }
 
+.work-modal__point ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
 .work-modal__point h4 {
   margin-bottom: 12px;
   font-size: 1.6rem;
