@@ -481,3 +481,23 @@ main::before {
   border-top: 1px dashed #ccc;
   padding-top: 12px;
 }
+
+.work-modal__lyrics-content {
+  margin-top: 12px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+}
+
+.work-modal__lyrics-content p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.work-modal__audio {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.work-modal__audio audio {
+  width: 100%;
+}
