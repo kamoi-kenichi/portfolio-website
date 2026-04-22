@@ -501,3 +501,9 @@ main::before {
 .work-modal__audio audio {
   width: 100%;
 }
+
+.work-modal__related {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+}
