@@ -506,4 +506,21 @@ main::before {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 0.9em;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.work-modal__related p {
+  margin-bottom: 5px;
+}
+
+.work-modal__related ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.work-modal__related ul li {
+  margin-bottom: 3px;
 }
