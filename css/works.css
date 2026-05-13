@@ -564,8 +564,8 @@ main::before {
 
 .modal-close-custom {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 24px;
+  right: 24px;
   width: 40px;
   height: 40px;
   border: none;
@@ -595,15 +595,15 @@ main::before {
 
 @media screen and (max-width: 767px) {
   .modal-close-custom {
-    top: 0px;
-    right: 0px;
+    top: 16px;
+    right: 16px;
     width: 36px;
     height: 36px;
     font-size: 20px;
   }
 
   .work-modal__media {
-    margin-top: 48px;
+    margin-top: 24px;
   }
 
   .modaal-content-container {

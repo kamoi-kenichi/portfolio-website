@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () => {
+    initModal();
+});
+
 $(function () {
     $('body').addClass('appear');
 });
@@ -211,5 +215,28 @@ function initSiteTracking() {
                 });
             }
         });
+    });
+}
+
+function initModal() {
+    if (typeof $ === "undefined" || !$.fn.modaal) return;
+
+    $(".modal-open").modaal({
+        overlay_close: true,
+        type: "inline",
+        background: "#000",
+        overlay_opacity: 0.6,
+
+        before_close: function () {
+
+            const audios = document.querySelectorAll('audio');
+            audios.forEach(audio => audio.pause());
+        }
+    });
+
+    $(document).on("click touchend", ".modal-close-custom", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $(".modal-open").modaal("close");
     });
 }

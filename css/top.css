@@ -768,7 +768,7 @@ a.btn-border-shadow:hover:before {
 }
 
 .modal-inner {
-  padding: 40px;
+  padding: 20px;
   background: #fffdfa;
   border-radius: 28px;
 }
@@ -881,17 +881,6 @@ a.btn-border-shadow:hover:before {
   color: #3f3934;
 }
 
-.work-modal__point h4::before {
-  content: "";
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-right: 8px;
-  border-radius: 50%;
-  background: #8c7b6b;
-  vertical-align: middle;
-}
-
 .work-modal__point p {
   font-size: 1.45rem;
   line-height: 2;
@@ -968,8 +957,12 @@ a.btn-border-shadow:hover:before {
     font-size: 1.35rem;
   }
 
+  .work-modal__point h4 {
+    font-size: 1.5rem;
+  }
+
   .modal-inner {
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
   }
 
@@ -978,7 +971,11 @@ a.btn-border-shadow:hover:before {
     gap: 28px;
   }
 
-  .work-modal__media,
+  .work-modal__media {
+    width: 100%;
+    margin-top: 32px;
+  }
+
   .work-modal__body {
     width: 100%;
   }
@@ -2060,7 +2057,6 @@ _:-ms-lang(x),
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-right: 8px;
 }
 
 .music-meta {
@@ -2097,7 +2093,6 @@ _:-ms-lang(x),
 .music-modal-data dl {
   display: grid;
   grid-template-columns: 90px 1fr;
-  gap: 8px 16px;
   margin-bottom: 16px;
 }
 
@@ -2367,5 +2362,58 @@ _:-ms-lang(x),
 
   .about-text-lead {
     display: none
+  }
+}
+
+.work-modal {
+  position: relative;
+}
+
+.modal-close-custom {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #EAE4D9;
+  color: #5A4B43;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.modal-close-custom:hover {
+  background-color: #D8CEBE;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.modaal-close {
+  display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-close-custom {
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .music-modal-left {
+    margin-top: 48px;
+  }
+
+  .modaal-content-container {
+    padding: 20px;
   }
 }
