@@ -61,6 +61,12 @@ function initModal() {
       audios.forEach(audio => audio.pause());
     }
   });
+
+  $(document).on("click touchend", ".modal-close-custom", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $(".modal-open").modaal("close");
+  });
 }
 
 function initAOS() {

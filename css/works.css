@@ -311,27 +311,25 @@ main::before {
 
 .work-modal__point ul {
   list-style-type: disc;
-  padding-left: 20px;
   line-height: 1.8;
+}
+
+.work-modal__point li {
+  list-style: none;
+}
+
+.work-modal__point-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .work-modal__point h4 {
   margin-bottom: 12px;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   color: #3f3934;
-}
-
-.work-modal__point h4::before {
-  content: "";
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-right: 8px;
-  border-radius: 50%;
-  background: #8c7b6b;
-  vertical-align: middle;
 }
 
 .work-modal__point p {
@@ -410,6 +408,10 @@ main::before {
     font-size: 1.35rem;
   }
 
+  .work-modal__point h4 {
+    font-size: 1.4rem;
+  }
+
   .modal-inner {
     padding: 20px;
     border-radius: 20px;
@@ -456,6 +458,10 @@ main::before {
 
   .work-modal__btn {
     width: 100%;
+  }
+
+  .work-modal__point {
+    padding: 16px;
   }
 }
 
@@ -523,4 +529,84 @@ main::before {
 
 .work-modal__related ul li {
   margin-bottom: 3px;
+}
+
+.sp-br {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .work-modal__lyrics {
+    padding: 12px 10px !important;
+  }
+
+  .work-modal__lyrics-content p {
+    font-size: 1.2rem !important;
+    line-height: 1.9;
+  }
+
+  .sp-br {
+    display: block;
+  }
+
+  .work-modal__lyrics summary {
+    font-size: 12px;
+  }
+
+  .work-modal__related {
+    font-size: 0.8em;
+  }
+}
+
+.work-modal {
+  position: relative;
+}
+
+.modal-close-custom {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #EAE4D9;
+  color: #5A4B43;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.modal-close-custom:hover {
+  background-color: #D8CEBE;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.modaal-close {
+  display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-close-custom {
+    top: 0px;
+    right: 0px;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .work-modal__media {
+    margin-top: 48px;
+  }
+
+  .modaal-content-container {
+    padding: 20px;
+  }
 }
