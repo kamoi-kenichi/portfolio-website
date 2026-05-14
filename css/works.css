@@ -211,12 +211,14 @@ main::before {
 
 .work-modal {
   display: flex;
-  gap: 48px;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
 }
 
 .work-modal__media {
-  width: 52%;
+  width: 100%;
+  max-width: 800px;
 }
 
 .work-modal__media img {
@@ -227,7 +229,8 @@ main::before {
 }
 
 .work-modal__body {
-  width: 48%;
+  width: 100%;
+  max-width: 800px;
 }
 
 .work-modal__label {
@@ -353,6 +356,10 @@ main::before {
 
 .work-modal__actions {
   margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .work-modal__btn {
@@ -389,18 +396,11 @@ main::before {
   background: transparent;
   color: #8c7b6b;
   border: 1px solid #8c7b6b;
-  margin-left: 12px;
 }
 
 .work-modal__btn--ghost:hover {
   background: #8c7b6b;
   color: #fff;
-}
-
-@media screen and (max-width: 886px) {
-  .work-modal__btn--ghost {
-    margin: 24px 0 auto;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -415,16 +415,6 @@ main::before {
   .modal-inner {
     padding: 20px;
     border-radius: 20px;
-  }
-
-  .work-modal {
-    flex-direction: column;
-    gap: 28px;
-  }
-
-  .work-modal__media,
-  .work-modal__body {
-    width: 100%;
   }
 
   .work-modal__title {
@@ -462,6 +452,10 @@ main::before {
 
   .work-modal__point {
     padding: 16px;
+  }
+
+  .work-modal__actions {
+    flex-direction: column;
   }
 }
 
