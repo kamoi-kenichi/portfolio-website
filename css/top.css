@@ -731,7 +731,7 @@ a.btn-border-shadow:hover:before {
   }
 
   .works-title::after {
-    width: 15.5rem;
+    width: 16rem;
   }
 
   .works-list {
@@ -1217,6 +1217,10 @@ a.contact-btn-border-shadow:hover:before {
     font-size: 90%;
     margin: 40px 0 0;
   }
+
+  a.contact-btn-border-shadow:before {
+    display: none;
+  }
 }
 
 .copyright {
@@ -1478,10 +1482,6 @@ _:-ms-lang(x),
     font-size: 1.3rem;
   }
 
-  .about-text-blank {
-    display: none;
-  }
-
   .scroll-btn {
     font-size: 1.5rem;
   }
@@ -1520,7 +1520,7 @@ _:-ms-lang(x),
   content: "";
   background: var(--main_stripe);
   height: 0.5rem;
-  width: 14rem;
+  width: 22rem;
   margin: 5px auto 0;
 }
 
@@ -1551,7 +1551,7 @@ _:-ms-lang(x),
   }
 
   .experience-title::after {
-    width: 13rem;
+    width: 20rem;
   }
 }
 
@@ -1642,15 +1642,6 @@ _:-ms-lang(x),
 .experience-list li a:hover .experience-arrow {
   opacity: 1;
   transform: translateX(0);
-}
-
-.experience-lead {
-  margin-top: 48px;
-  text-align: center;
-  font-size: 100%;
-  line-height: 2.2;
-  letter-spacing: 0.06em;
-  color: #5f5955;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1793,6 +1784,10 @@ _:-ms-lang(x),
 
   .blog-title {
     font-size: 2.4rem;
+  }
+
+  .blog-title::after {
+    width: 8rem;
   }
 
   .blog-tag {
@@ -1966,7 +1961,7 @@ _:-ms-lang(x),
   }
 
   .music-title::after {
-    width: 15.5rem;
+    width: 16rem;
   }
 
   .music-heading {
