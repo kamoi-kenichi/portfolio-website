@@ -604,3 +604,9 @@ main::before {
     padding: 20px;
   }
 }
+
+.lyrics-block {
+  font-size: 13px;
+  line-height: 2.0;
+  margin-bottom: 1.5em;
+}
