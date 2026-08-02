@@ -610,3 +610,22 @@ main::before {
   line-height: 2.0;
   margin-bottom: 1.5em;
 }
+
+.spoiler-alert-box {
+  background-color: #fbf7f3;
+  border: 1px solid #e5d8c8;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+
+.spoiler-alert-text {
+  color: #5c4f42;
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.spoiler-alert-text strong {
+  color: #c97a63;
+}
