@@ -629,3 +629,10 @@ main::before {
 .spoiler-alert-text strong {
   color: #c97a63;
 }
+
+.work-modal__btn.is-disabled {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  color: #ffffff;
+  pointer-events: none;
+}

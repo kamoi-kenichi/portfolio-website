@@ -2241,3 +2241,10 @@ _:-ms-lang(x),
     padding: 20px;
   }
 }
+
+.work-modal__btn.is-disabled {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  color: #ffffff;
+  pointer-events: none;
+}
