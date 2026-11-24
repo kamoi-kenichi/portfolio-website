@@ -88,7 +88,7 @@ header h1 a {
   transition: 0.3s;
 }
 
-header h1 a:hover {
+.openbtn.active span:nth-of-type(3) header h1 a:hover {
   opacity: 0.6;
 }
 
@@ -104,16 +104,6 @@ header h1 a span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-@media screen and (max-width: 1200px) {
-  header h1 {
-    margin-left: 32px;
-  }
-
-  .global_nav {
-    margin-right: 32px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -241,6 +231,30 @@ header h1 a span {
   left: 12px;
   transform: translateY(-5px) rotate(45deg);
   width: 45%;
+}
+
+@media screen and (max-width: 1200px) {
+  header h1 {
+    margin-left: 24px;
+    flex-shrink: 0;
+  }
+
+  header h1 a {
+    font-size: 3.0rem;
+    white-space: nowrap;
+  }
+
+  .global_nav {
+    margin-right: 24px;
+  }
+
+  .global_nav ul {
+    font-size: 2.0rem;
+  }
+
+  .global_nav li {
+    margin-right: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {

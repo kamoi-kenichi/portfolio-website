@@ -27,6 +27,7 @@ header h1 a {
     line-height: 0.4;
     text-decoration: none;
     transition: 0.3s;
+    white-space: nowrap;
 }
 
 header h1 a:hover {
@@ -39,16 +40,6 @@ header h1 a span {
     font-size: 0.9rem;
     opacity: 0.8;
     letter-spacing: 0.08em;
-}
-
-@media screen and (max-width: 1200px) {
-    header h1 {
-        margin-left: 32px;
-    }
-
-    .global_nav {
-        margin-right: 32px;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -182,6 +173,29 @@ header h1 a span {
     left: 12px;
     transform: translateY(-5px) rotate(45deg);
     width: 45%;
+}
+
+@media screen and (max-width: 1200px) {
+    header h1 {
+        margin-left: 24px;
+        flex-shrink: 0;
+    }
+
+    header h1 a {
+        font-size: 3.0rem;
+    }
+
+    .global_nav {
+        margin-right: 24px;
+    }
+
+    .global_nav ul {
+        font-size: 2.0rem;
+    }
+
+    .global_nav li {
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 767px) {
